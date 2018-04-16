@@ -7,7 +7,6 @@
 
 python_package node['shadowsocks_ng']['package'] do
   version node['shadowsocks_ng']['version']
-  only_if { min_python_version('2.7.0') }
 end
 
 template node['shadowsocks_ng']['config'] do
