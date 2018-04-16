@@ -30,7 +30,7 @@ This cookbook will create a system service "ssserver", while the configuration f
 
 ### shadowsocks_ng::default
 
-Just include `shadowsocks` in your node's `run_list`:
+Just include `shadowsocks_ng` in your node's `run_list`:
 
 ```json
 {
