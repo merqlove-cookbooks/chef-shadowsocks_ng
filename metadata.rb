@@ -4,7 +4,7 @@ maintainer_email 'sasha@merqlove.ru'
 license          'MIT'
 description      'Installs/Configures shadowsocks'
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
-version          '0.2.2'
+version          '0.2.3'
 
 depends 'poise-service', '~> 1.5.1'
 depends 'poise-python'

@@ -7,7 +7,7 @@
 
 python_package node['shadowsocks']['package'] do
   version node['shadowsocks']['version']
-  only_if { pip? && min_python_version('2.7.0') }
+  only_if { min_python_version('2.7.0') }
 end
 
 template '/etc/shadowsocks.json' do
