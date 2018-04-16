@@ -26,11 +26,11 @@ This cookbook will create a system service "ssserver", while the configuration f
 
 ### shadowsocks_ng::default
 
-- `node['shadowsocks']['server_port']` - Shadowsocks server port. Default is `8388`.
-- `node['shadowsocks']['method']` - Shadowsocks encrypt method. Default is `aes-256-cfb`.
-- `node['shadowsocks']['password']` - Shadowsocks password. Default is `pass`.
-- `node['shadowsocks']['package']` - Shadowsocks `pip` package name. Default is `shadowsocks`.
-- `node['shadowsocks']['version']` - Shadowsocks version.
+- `node['shadowsocks_ng']['server_port']` - Shadowsocks server port. Default is `8388`.
+- `node['shadowsocks_ng']['method']` - Shadowsocks encrypt method. Default is `aes-256-cfb`.
+- `node['shadowsocks_ng']['password']` - Shadowsocks password. Default is `pass`.
+- `node['shadowsocks_ng']['package']` - Shadowsocks `pip` package name. Default is `shadowsocks`.
+- `node['shadowsocks_ng']['version']` - Shadowsocks version.
 
 ## Usage
 
@@ -59,4 +59,3 @@ Just include `shadowsocks` in your node's `run_list`:
 ## License and Authors
 
 - Authors:: merqlove
-
