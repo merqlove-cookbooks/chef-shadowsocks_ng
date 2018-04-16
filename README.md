@@ -47,6 +47,10 @@ Just include `shadowsocks` in your node's `run_list`:
 }
 ```
 
+## Thanks
+
+`jccode` for initial cookbook
+
 ## Contributing
 
 1. Fork the repository on Github
